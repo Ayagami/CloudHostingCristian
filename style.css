@@ -1,0 +1,206 @@
+body {
+  font-family: "ubuntu", arial;
+  background: #ebebeb;
+}
+#container {
+  max-width: 940px;
+  padding: 0 10px;
+  background: #fff;
+  overflow: hidden;
+  margin: 0px auto 10px;
+}
+#barra-top {
+  background: #777;
+  height: 44px;
+  width: 100%;
+  min-width: 960px;
+  position: fixed;
+  z-index: 9999;
+}
+#barra-top:after {
+  position: absolute;
+}
+#barra-top ul {
+  overflow: hidden;
+  text-align: right;
+  max-width: 960px;
+  padding-top: 10px;
+  margin: auto;
+}
+#barra-top ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+#barra-top ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+#barra-top ul li a:hover {
+  text-shadow: 1px 1px 1px #000;
+}
+header {
+  margin-top: 60px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+header img {
+  float: left;
+}
+header hgroup {
+  float: left;
+}
+header hgroup h1 {
+  line-height: 1;
+  margin: 5px;
+}
+header hgroup h2 {
+  margin: 5px;
+  font-size: 16px;
+}
+header .urgente {
+  float: right;
+  height: 100%;
+  width: 400px;
+  background: #ffc600;
+  padding: 10px;
+}
+header .urgente p {
+  margin: 0;
+  padding: 3px 0px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+header .urgente input[type="submit"] {
+  background: #b28a00;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  padding: 3px 30px;
+  margin-left: 10px;
+}
+header .urgente input[type="submit"]:hover {
+  text-shadow: 1px 1px 1px #333;
+}
+header .urgente input[type="text"] {
+  font-size: 13px;
+  width: 250px;
+}
+header nav {
+  clear: both;
+  padding-top: 10px;
+}
+header nav #main {
+  width: 100%;
+  background: #62a2e4;
+  overflow: hidden;
+}
+header nav #main li {
+  float: left;
+  padding: 10px 0px;
+  width: 16.5%;
+  text-align: center;
+  text-shadow: 0px 1px 3px #555;
+}
+header nav #main li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav #main li:hover {
+  background: #4784c3;
+}
+.bloque:nth-last-child(4) {
+  margin-right: 0;
+}
+.bloque {
+  border: 1px solid #cecece;
+  background: #f0f0f0;
+  width: 300px;
+  float: left;
+  margin-right: 13px;
+}
+.bloque header {
+  margin-top: 0px;
+  background: #dfdfdf;
+}
+.bloque footer {
+  background: #333;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px;
+}
+.bloque footer .precio {
+  font-size: 30px;
+  line-height: 1;
+}
+.bloque footer .slogan {
+  font-size: 18px;
+}
+.bloque footer input {
+  float: right;
+  margin-top: -35px;
+  background: #4784c3;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+#banner {
+  clear: both;
+  background: #62a2e4;
+  overflow: none;
+  margin-top: 258px;
+  color: #fff;
+}
+#banner figure {
+  overflow: hidden;
+  float: left;
+}
+#banner figure img {
+  margin: 10px 0px 0px 20px;
+}
+#banner h3 {
+  margin: 0px 0px 0px 150px;
+  padding-top: 10px;
+}
+#banner p {
+  margin: 0px 0px 0px 150px;
+  padding: 10px 0px;
+}
+#twitter {
+  margin-top: 50px;
+  background: #ffc600;
+  clear: both;
+  height: 40px;
+}
+#twitter p {
+  float: left;
+  margin: 0px;
+  padding: 10px;
+}
+#twitter img {
+  float: left;
+  position: relative;
+  top: -10px;
+}
+footer {
+  clear: both;
+  overflow: hidden;
+}
+footer section {
+  width: 220px;
+  float: left;
+  padding-left: 10px;
+}
+footer section ul {
+  list-style: none;
+  padding-left: 2px;
+}
+footer section ul li a {
+  text-decoration: none;
+  color: #444;
+}
+footer #copyright {
+  clear: both;
+  width: 500px;
+}
